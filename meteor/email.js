@@ -1,0 +1,5 @@
+module.exports = {
+  Email: {
+    send() {}
+  }
+}

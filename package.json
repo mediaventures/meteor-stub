@@ -1,0 +1,24 @@
+{
+  "name": "@ksinas/meteor-stub",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "1.0.0",
+  "description": "Allows to use mocha unit tests outside meteor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karolis Sinas <karolis.sinas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "meteor-base64": "^1.3.0",
+    "meteor-core": "^1.3.1",
+    "meteor-diff-sequence": "^1.3.1",
+    "meteor-ejson-safe": "^1.3.0",
+    "meteor-id-map": "^1.3.0",
+    "meteor-random-window-crypto": "^1.3.1",
+    "pirates": "^4.0.1",
+    "underscore": "^1.9.1"
+  }
+}
