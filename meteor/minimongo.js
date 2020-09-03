@@ -1990,6 +1990,7 @@ module.exports = function(Meteor) {
   class LocalCollection {
     constructor(name) {
       this.name = name; // _id -> document (also containing id)
+      this._name = name; // _id -> document (also containing id)
 
       this._docs = new LocalCollection._IdMap();
       this._observeQueue = new Meteor._SynchronousQueue();
