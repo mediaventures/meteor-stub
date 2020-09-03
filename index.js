@@ -16,7 +16,7 @@ function setupGlobalStubs(stubs = []) {
 
   // Add stubbing from this package to the given list
   stubs = stubs.concat([
-    { find: pattern, replace: '"@ksinas/meteor-stub/meteor"'},
+    { find: pattern, replace: '"@mediaventures/meteor-stub/meteor"'},
   ]);
 
   addHook(

@@ -1,5 +1,5 @@
 {
-  "name": "@ksinas/meteor-stub",
+  "name": "@mediaventures/meteor-stub",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
