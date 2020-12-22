@@ -22,6 +22,7 @@ require('./collection-hooks')(Meteor);
 require('./accounts-stub')(Meteor);
 require('./publications-stub')(Meteor);
 require('./check')(Meteor);
+require('./string_utils')(Meteor);
 
 Meteor.startup = () => {};
 
